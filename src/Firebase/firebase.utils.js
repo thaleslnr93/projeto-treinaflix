@@ -3,13 +3,12 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const Config = {
-  apiKey: "AIzaSyCXt-zJtsSK8WAxmb9bf3S-CC_xjXm0g04",
-  authDomain: "flixtreina.firebaseapp.com",
-  databaseURL: "https://flixtreina.firebaseio.com",
-  projectId: "flixtreina",
-  storageBucket: "",
-  messagingSenderId: "180843287421",
-  appId: "1:180843287421:web:017aa2c69873be70787214"
+  apiKey: "AIzaSyBWrl97zfnMM-9nhuqz-JBMmhWduFTUVsk",
+  authDomain: "treinaflix-e6941.firebaseapp.com",
+  projectId: "treinaflix-e6941",
+  storageBucket: "treinaflix-e6941.appspot.com",
+  messagingSenderId: "439698422188",
+  appId: "1:439698422188:web:bbe8dbd639c7d4cbaa6209"
 };
 
 export const CreateUserProfileDocument = async (userAuth, additionalData) => {
